@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "example": "pnpm --filter @marshallku/config-example"
+        "react": "pnpm --filter @marshallku/config-react-example",
+        "next": "pnpm --filter @marshallku/config-next-example"
     },
     "keywords": [],
     "author": "",

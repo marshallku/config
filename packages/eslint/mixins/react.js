@@ -25,6 +25,12 @@ module.exports = {
                 project,
             },
         },
+        "jsx-a11y": {
+            polymorphicPropName: "as",
+            components: {
+                Image: "img",
+            },
+        },
     },
     overrides: [
         {

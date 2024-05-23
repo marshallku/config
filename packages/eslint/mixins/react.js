@@ -4,7 +4,13 @@ const project = resolve(process.cwd(), "tsconfig.json");
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-    extends: ["prettier", "plugin:@tanstack/eslint-plugin-query/recommended"],
+    extends: [
+        "prettier",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:react/jsx-runtime",
+        "plugin:@tanstack/eslint-plugin-query/recommended",
+    ],
     parserOptions: {
         project,
     },
@@ -57,6 +63,7 @@ module.exports = {
         "jsx-a11y/aria-unsupported-elements": "warn",
         "jsx-a11y/role-has-required-aria-props": "warn",
         "jsx-a11y/role-supports-aria-props": "warn",
+        "jsx-a11y/no-static-element-interactions": "warn",
         "react-refresh/only-export-components": [
             "warn",
             {

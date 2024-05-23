@@ -14,6 +14,7 @@ module.exports = {
     parserOptions: {
         project,
     },
+    plugins: ["react", "react-refresh", "jsx-a11y"],
     globals: {
         React: true,
         JSX: true,

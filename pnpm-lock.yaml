@@ -17,6 +17,9 @@ importers:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
     devDependencies:
+      '@marshallku/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint
       '@marshallku/prettier-config':
         specifier: workspace:*
         version: link:../../packages/prettier

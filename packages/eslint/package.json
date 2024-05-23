@@ -1,7 +1,7 @@
 {
     "name": "@marshallku/eslint-config",
     "main": "index.js",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "prettier": "@marshallku/prettier-config",
     "dependencies": {
         "@next/eslint-plugin-next": "^14.2.3",

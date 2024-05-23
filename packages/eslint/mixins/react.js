@@ -57,7 +57,13 @@ module.exports = {
         "jsx-a11y/aria-unsupported-elements": "warn",
         "jsx-a11y/role-has-required-aria-props": "warn",
         "jsx-a11y/role-supports-aria-props": "warn",
-        "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
+        "react-refresh/only-export-components": [
+            "warn",
+            {
+                allowConstantExport: true,
+                allowExportNames: ["metadata", "viewport", "dynamic", "generateMetadata", "generateStaticParams"],
+            },
+        ],
         "react/no-unknown-property": "off",
         "react/prop-types": "off",
     },

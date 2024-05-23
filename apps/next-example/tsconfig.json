@@ -1,0 +1,12 @@
+{
+    "extends": "@marshallku/typescript-config/react-library.json",
+    "compilerOptions": {
+        "target": "ES2020",
+        "incremental": true,
+        "paths": {
+            "#/*": ["./*"]
+        }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+    "exclude": ["node_modules"]
+}

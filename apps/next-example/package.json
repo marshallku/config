@@ -1,0 +1,28 @@
+{
+    "name": "@marshallku/config-next-example",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "next": "14.2.3",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "prettier": "@marshallku/prettier-config",
+    "devDependencies": {
+        "@marshallku/eslint-config": "workspace:*",
+        "@marshallku/prettier-config": "workspace:*",
+        "@marshallku/typescript-config": "workspace:*",
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "eslint": "^8",
+        "typescript": "^5"
+    }
+}

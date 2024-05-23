@@ -1,0 +1,29 @@
+{
+    "name": "@marshallku/eslint-config",
+    "main": "index.js",
+    "version": "1.0.0",
+    "prettier": "@marshallku/prettier-config",
+    "dependencies": {
+        "@next/eslint-plugin-next": "^14.2.3",
+        "@rushstack/eslint-config": "^3.6.10",
+        "@rushstack/eslint-patch": "^1.10.3",
+        "@tanstack/eslint-plugin-query": "^5.35.6",
+        "@vercel/style-guide": "^6.0.0",
+        "eslint-config-turbo": "^1.13.3",
+        "eslint-plugin-cypress": "^3.2.0",
+        "eslint-plugin-jsx-a11y": "^6.8.0",
+        "eslint-plugin-mdx": "^3.1.5",
+        "eslint-plugin-no-relative-import-paths": "^1.5.4",
+        "eslint-plugin-only-warn": "^1.1.0",
+        "eslint-plugin-react-refresh": "^0.4.7",
+        "eslint-plugin-storybook": "^0.8.0",
+        "eslint-plugin-testing-library": "^6.2.2"
+    },
+    "devDependencies": {
+        "@marshallku/prettier-config": "workspace:*"
+    },
+    "peerDependencies": {
+        "eslint": ">= 8",
+        "typescript": ">= 5"
+    }
+}

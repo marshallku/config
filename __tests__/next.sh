@@ -16,4 +16,6 @@ check_lint_error() {
 
 check_lint_error "@rushstack/typedef-var"
 
+check_lint_error "react-refresh/only-export-components"
+
 check_lint_error "jsx-a11y/alt-text"

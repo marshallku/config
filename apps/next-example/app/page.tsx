@@ -1,5 +1,13 @@
 import Image from "next/image";
 
+export const tmp = (value: string | null) => {
+    if (value == null) {
+        return "";
+    }
+
+    return value;
+};
+
 export default function Home() {
     return (
         <main>

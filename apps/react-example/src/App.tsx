@@ -4,6 +4,14 @@ import viteLogo from "/vite.svg";
 
 export const foo = 1;
 
+export interface IProps {
+    name: string;
+}
+
+export type TProps = {
+    name: string;
+};
+
 function App() {
     const [count, setCount] = useState(0);
 

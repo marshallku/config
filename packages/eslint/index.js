@@ -11,6 +11,45 @@ module.exports = {
     plugins: [],
     rules: {
         "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/naming-convention": [
+            "warn",
+            {
+                selector: "variable",
+                format: ["camelCase", "PascalCase", "UPPER_CASE"],
+            },
+            {
+                selector: "function",
+                format: ["camelCase", "PascalCase"],
+            },
+            {
+                selector: "typeLike",
+                format: ["PascalCase"],
+            },
+            {
+                selector: "interface",
+                format: ["PascalCase"],
+                custom: {
+                    regex: "^I[A-Z]",
+                    match: false,
+                },
+            },
+            {
+                selector: "typeAlias",
+                format: ["PascalCase"],
+                custom: {
+                    regex: "^T[A-Z]",
+                    match: false,
+                },
+            },
+            {
+                selector: "typeParameter",
+                format: ["PascalCase"],
+                custom: {
+                    regex: "^T[A-Z]",
+                    match: false,
+                },
+            },
+        ],
     },
     settings: {
         "import/resolver": {

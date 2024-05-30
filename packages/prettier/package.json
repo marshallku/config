@@ -1,7 +1,17 @@
 {
     "name": "@marshallku/prettier-config",
     "main": "index.js",
-    "version": "0.0.0",
+    "version": "0.0.1",
+    "repository": {
+        "url": "https://github.com/marshallku/config.git",
+        "type": "git",
+        "directory": "packages/prettier"
+    },
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "prettier": "@marshallku/prettier-config",
     "peerDependencies": {
         "prettier": ">= 3"
     },

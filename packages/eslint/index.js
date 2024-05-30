@@ -10,6 +10,15 @@ module.exports = {
     },
     plugins: [],
     rules: {
+        "@rushstack/typedef-var": "off",
+        "@rushstack/no-new-null": "off",
+        eqeqeq: [
+            "error",
+            "always",
+            {
+                null: "ignore",
+            },
+        ],
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/naming-convention": [
             "warn",
@@ -50,6 +59,7 @@ module.exports = {
                 },
             },
         ],
+        "@typescript-eslint/explicit-function-return-type": "warn",
     },
     settings: {
         "import/resolver": {

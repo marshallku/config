@@ -1,6 +1,6 @@
 {
     "name": "@marshallku/typescript-config",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "repository": {
         "url": "https://github.com/marshallku/config.git",
         "type": "git",

@@ -59,6 +59,7 @@ module.exports = {
                 },
             },
         ],
+        "@typescript-eslint/typedef": "off",
     },
     settings: {
         "import/resolver": {

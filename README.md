@@ -1,5 +1,7 @@
 # Monorepo for ESLint, Prettier, and TypeScript Configurations
 
+[![CI](https://github.com/marshallku/config/actions/workflows/ci.yml/badge.svg)](https://github.com/marshallku/config/actions/workflows/ci.yml)
+
 This repository contains shared configuration files for ESLint, Prettier, and TypeScript, designed to be used across multiple projects. The configurations are published on npm for easy integration.
 
 ## Folder Structure

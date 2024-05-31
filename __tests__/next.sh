@@ -1,20 +1,8 @@
 #!/bin/bash
 
-result=$(pnpm react lint)
+result=$(pnpm next lint)
 
-# Function to check for a specific lint error in results
-check_lint_error() {
-    local rule="$1"
-
-    if [[ $result != *"$rule"* ]]; then
-        echo "Failed to find $rule"
-        return 1
-    fi
-
-    return 0
-}
-
-check_lint_error "@rushstack/typedef-var"
+source ./__tests__/util.sh "$result"
 
 check_lint_error "react-refresh/only-export-components"
 
